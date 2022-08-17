@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="jobappformstyles.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="formBox">
+            <h1>Job Application Form</h1>
+            <form action="">
+                <div class="formContainer">
+                    <div class="formControl">
+                        <label for="firstName">First Name</label>
+                        <input id="firstName" name="fN" placeholder="Enter Your First Name" />
+                    </div>
+                    <div class="formControl">
+                        <label for="lastName">Last Name</label>
+                        <input id="lastName" name="lN" placeholder="Enter Your Last Name" />
+                    </div>
+                    <div class="formControl">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="em" placeholder="Enter Your Email" />
+                    </div>
+                    <div class="formControl">
+                        <label for="jobRole">Job Role</label>
+                        <select id="jobRole" name="jR">
+                            <option value="">Select Job Role</option>
+                            <option value="frontend">FrontEnd Developer</option>
+                            <option value="backend">BackEnd Developer</option>
+                            <option value="fullstack">Full Stack Developer</option>
+                            <option value="frontend">UI/UX Designer</option>
+                        </select>
+                    </div>
+                    <div class="formControl">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="addr" row="4" cols="50" placeholder="Enter Your Address"></textarea>
+                    </div>
+                    <div class="formControl">
+                        <label for="city">City</label>
+                        <input id="city" name="city" placeholder="Enter Your City" />
+                    </div>
+                    <div class="formControl">
+                        <label for="pincode">Pincode</label>
+                        <input type="number" id="pincode" name="pC" placeholder="Enter Your Pincode" />
+                    </div>
+                    <div class="formControl">
+                        <label for="cv">First Name</label>
+                        <input type="file" id="cv" name="cv"/>
+                    </div>
+                </div>
+                <div class="buttonContainer">
+                    <button type="submit">Apply Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
